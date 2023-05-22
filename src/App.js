@@ -58,6 +58,7 @@ function App() {
     // losing the game
     else if (currAttempt.attempt === 5) {
       setGameOver({ gameOver: true, guessedWord: false });
+      return;
     }
   };
 

@@ -11,8 +11,15 @@ const GameOver = () => {
           ? "Congrats! You guessed the word!"
           : "You didn't guess the word"}
       </h3>
-      <h1>Correct word: {correctWord}</h1>
-      {gameOver.guessedWord && <h3>You took {currAttempt.attempt} attempts</h3>}
+      <h1>
+        Correct word: <span className="correct-word">{correctWord}</span>
+      </h1>
+      {gameOver.guessedWord && (
+        <h3>
+          You took <span className="attempts">{currAttempt.attempt}</span>{" "}
+          attempts
+        </h3>
+      )}
       <button onClick={() => window.location.reload()}>Play again?</button>
     </div>
   );
