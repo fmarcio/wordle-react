@@ -1,4 +1,11 @@
 # Wordle React
+Wordle is a game which the user has five attempts to guess a word on a board. After an attempt, the UI will show the following scnearios:
+
+- **Green**: If the letter exists on the board and is in the correct position. 
+- **Yellow**: If the letter exists on the board and is not in the correct position.
+- **Dark Grey**: If the letter does not exists on the board.
+
+The user can attempt a word by typing it or clicking in the digital keyboard in the UI.
 
 This project is only for study purposes and it was inspired by [Pedro Machado's (machadop1407) Project](https://github.com/machadop1407/chartjs-react-tutorial).
 
