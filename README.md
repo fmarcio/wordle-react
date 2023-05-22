@@ -1,3 +1,11 @@
+# Wordle React
+
+This project is only for study purposes and it was inspired by [Pedro Machado's (machadop1407) Project](https://github.com/machadop1407/chartjs-react-tutorial).
+
+There are some differences in the code according to my preferences and I intend to update it with new features.
+
+Deployed [here](https://fmarcio.github.io/wordle-react/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
