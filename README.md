@@ -8,7 +8,6 @@ Wordle is a game which the user has five attempts to guess a word on a board. Af
 The user can attempt a word by typing it or clicking in the digital keyboard in the UI.
 
 This project is only for study purposes and it was inspired by [Pedro Machado's (machadop1407) Project](https://github.com/machadop1407/chartjs-react-tutorial).
-
 There are some differences in the code according to my preferences and I intend to update it with new features.
 
 Deployed [here](https://fmarcio.github.io/wordle-react/)
